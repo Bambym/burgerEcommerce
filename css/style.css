@@ -1,0 +1,40 @@
+body{
+    background: url("../image/bg.png");
+    
+}
+.accueil>img{
+    width: 100%;
+    height: 400px;
+}
+h1{
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+h2{
+    color: white;
+}
+.best-burger{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+.card{
+    margin: 10px;
+}
+#image-ref{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin: 5rem;
+}
+#image-ref>form>button{
+    background:transparent;
+    border:none;
+    outline:none;
+    display:block;
+    cursor:pointer;
+}
